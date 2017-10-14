@@ -1,0 +1,13 @@
+{
+    "name": "ascal/php_oo",
+    "description": "PHP teste OO",
+    "type": "project",
+    "license": "ASC",
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "3.0"
+    },
+    "autoload":{
+      "psr-4": {"Classes\\": "classes/"}
+    }
+}
